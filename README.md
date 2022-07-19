@@ -13,7 +13,7 @@ python main.py
 2. Add your translation to working_in_progress folder like this:
 ```bash
 # before
-+ vehicle_NameANVL_Centurion=Anvil Centurion
++ vehicle_NameANVL_Centurion=Anvil Centurion # Please check support files folder to determine the standard translation name
 # after
 + vehicle_NameANVL_Centurion=铁砧 百夫长 # Please DO NOT leave space between = and translation
 ```
