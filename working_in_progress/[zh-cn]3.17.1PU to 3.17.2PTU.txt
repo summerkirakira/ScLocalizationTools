@@ -258,11 +258,11 @@
 + mg_ruto_collect_reclaimer_desc=Hey there. \n\nNine Tails got themselves a little problem. As it turns out, they got a little side biz in the underground organ trade. Now that an area I generally like to steer well clear of, but a gig’s a gig, right? It seems that one of their mobile butcher shops aboard the 'October Rising' got pinched by private security while out chopping. Now the Nine Tails are willing to cut ties with the ship and its crew (who are probably all dead anyway), but they need a particular crate extracted. Guess it was a special order or something.\n\nAnyway, get aboard the October Rising, get the package, and get out.\n\nSecurity’s still hanging around so watch yourself and maybe bring some friends, but remember, your priority is the package. If you're looking to save yourself some extra hassle, you could also black out the area by shutting down the nearest comm array if you want to avoid the crimestats for, you know, killing a bunch of a security. But hey, you do you.\n\nOnce you’re out, drop the package off at the clinic on Grim HEX and I’ll sort your payment.\n\nEasy peasy,\n\nRuto
 + mg_ruto_collect_reclaimer_obj_long_01=Travel to the last known location of the October Rising.
 + mg_ruto_collect_reclaimer_obj_long_02=Board the October Rising.
-+ mg_ruto_collect_reclaimer_obj_long_03=Grab the crate in the ship.
-+ mg_ruto_collect_reclaimer_obj_long_04=Deliver the crate to the Grim HEX clinic.
-+ mg_ruto_collect_reclaimer_obj_marker_01=Last Known Location
-+ mg_ruto_collect_reclaimer_obj_marker_02=October Rising
-+ mg_ruto_collect_reclaimer_obj_marker_03=Nine Tails Crate
++ mg_ruto_collect_reclaimer_obj_long_03=拿上船中的箱子
++ mg_ruto_collect_reclaimer_obj_long_04=运输至六角湾医疗站
++ mg_ruto_collect_reclaimer_obj_marker_01=最后位置信号传输点
++ mg_ruto_collect_reclaimer_obj_marker_02=十月革命
++ mg_ruto_collect_reclaimer_obj_marker_03=九尾之箱
 + mg_ruto_collect_reclaimer_obj_marker_04=Drop Off
 + mg_ruto_collect_reclaimer_obj_short_01=Travel to Last Known Location
 + mg_ruto_collect_reclaimer_obj_short_02=Board the October Rising
