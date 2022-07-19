@@ -71,8 +71,12 @@ class LocalizationFile:
         with diff_path.open('r') as f:
             for line in f:
                 line = line.strip()
+                if line.startswith('+ '):
+                    line = line[2:]
                 if not line or line.startswith('#'):
                     continue
+                if '->' in line:
+                    raise ValueError(f'{line} is not a valid line')
                 key, value = line.split('=', 1)
                 self.data[key] = value
 
@@ -81,7 +85,7 @@ class LocalizationFile:
         Saves the data to the file
         :return:
         """
-        with self.path.open('w') as f:
+        with open("global.ini.new", "w") as f:
             for key, value in self.data.items():
                 f.write(f'{key}={value}\n')
 
@@ -95,15 +99,19 @@ if __name__ == "__main__":
     old = LocalizationFile(old_path)
     new = LocalizationFile(new_path)
     while True:
-        code = input("-----------\n1.查看差异\n2.保存差异\n3.加载差异\n4.保存文件\n5.退出\n请输入操作编号：")
-        if code == "1":
-            old.show_diff(new)
-        elif code == "2":
-            old.save_diff(new)
-            print("差异已保存到diff.temp.txt文件中")
-        elif code == "3":
-            old.load_diff(diff_path)
-        elif code == "4":
-            old.save()
-        elif code == "5":
-            exit(0)
+        try:
+            code = input("-----------\n1.查看差异\n2.保存差异\n3.加载差异\n4.保存文件\n5.退出\n请输入操作编号：")
+            if code == "1":
+                new.show_diff(old)
+            elif code == "2":
+                new.save_diff(old)
+                print("差异已保存到diff.temp.txt文件中")
+            elif code == "3":
+                new.load_diff(diff_path)
+            elif code == "4":
+                new.save()
+            elif code == "5":
+                exit(0)
+        except ValueError as e:
+            print(e)
+            continue
