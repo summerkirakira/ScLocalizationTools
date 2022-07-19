@@ -1,7 +1,6 @@
-+ 2019_Ann_Sale_Day1=Expo-hall Day 01
++ 2019_Ann_Sale_Day1=展览馆开放日第1天
 + 2019_Ann_Sale_Day2=展览馆开放日第2天
 + Criminal_RetrieveData_Reclaimer_ShipName=黑风筝
->>>>>>> 7d3ca3aa9969564f4b5230dc51a1774b9f89fd88
 + Criminal_RetrieveData_Reclaimer_desc=Been hunting down a particular parcel of data and right when I get a break the ship gets attacked by this converted Nine Tails Reclaimer called the Black Kite. I tried to hack into the servers on the Black Kite to see if they copied the data, but couldn't find a way to remotely get past their encryption protocols without the physical key.\n\nThat's where you come in. I need someone to breach their ship, get a hold of their decryption key, and decrypt the server so I can remotely pull down what I need.\n\nYou're smart enough to know who we're dealing with here, so plan accordingly. Since it's gonna ruffle some powerful feathers, let's not leave anything to chance. Destroy the Black Kite when you're done to cover both our asses.\n
 + Criminal_RetrieveData_Reclaimer_obj_long_01=Board the Black Kite.
 + Criminal_RetrieveData_Reclaimer_obj_long_02=Find the decryption key.
