@@ -1,0 +1,1 @@
+A set of tools to edit and generate starcitizen global.ini file
