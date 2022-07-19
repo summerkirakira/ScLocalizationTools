@@ -42,8 +42,9 @@ class LocalizationFile:
         """
         for key, value in self.data.items():
             if key in old.data:
-                if value != old.data[key]:
-                    print(f'{key}={old.data[key]} -> {value}')
+                # if value != old.data[key]:
+                #     print(f'{key}={old.data[key]} -> {value}')
+                pass
             else:
                 print(f'+ {key}={value}')
 
@@ -55,9 +56,11 @@ class LocalizationFile:
         """
         for key, value in self.data.items():
             if key in old.data:
-                if value != old.data[key]:
-                    with open("diff.temp.txt", "a") as f:
-                        f.write(f'{key}={old.data[key]} -> {value}\n')
+                # if value != old.data[key]:
+                #     with open("diff.temp.txt", "a") as f:
+                #         f.write(f'{key}={old.data[key]} -> {value}\n')
+                self.data[key] = old.data[key]
+                pass
             else:
                 with open("diff.temp.txt", "a") as f:
                     f.write(f'+ {key}={value}\n')
@@ -88,6 +91,20 @@ class LocalizationFile:
         with open("global.ini.new", "w") as f:
             for key, value in self.data.items():
                 f.write(f'{key}={value}\n')
+
+    def save_to_xlsx(self, xlsx_path: Path):
+        """
+        Saves the data to an xlsx file
+        :param xlsx_path:
+        :return:
+        """
+        import openpyxl
+        wb = openpyxl.Workbook()
+        ws = wb.active
+        ws.title = 'Global'
+        for key, value in self.data.items():
+            ws[key] = value
+        wb.save(xlsx_path)
 
 
 if __name__ == "__main__":
