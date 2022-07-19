@@ -286,5 +286,5 @@
 + transit_shuttle_arriving_in_in=In
 + ui_CISelfDestruct_Disengage=Disengage Self Destruct
 + ui_CISelfDestruct_Engage=Engage Self Destruct
-+ vehicle_DescANVL_Centurion=制造商：铁砧航天(Anvil Aerospace)\n定位: 战斗\n\n基于铁砧深受喜爱的阿特拉斯底座, 百夫长为短程防空作战提供了一种战术解决方案。多亏了其定制的能量防空炮塔，地面部队可以快速有效地应对来自天空的直接威胁从而建立地面优势。
++ vehicle_DescANVL_Centurion=制造商：铁砧航天(Anvil Aerospace)\n定位: 战斗\n\n基于铁砧深受喜爱的阿特拉斯平台, 百夫长为短程防空作战提供了一种战术解决方案。多亏了其定制的能量防空炮塔，地面部队可以快速有效地应对来自天空的直接威胁从而建立地面优势。
 + vehicle_NameANVL_Centurion=铁砧 百夫长
