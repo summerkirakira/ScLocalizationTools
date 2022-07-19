@@ -1,1 +1,4 @@
 /venv
+**/global.ini
+diff.temp.txt
+/.idea
