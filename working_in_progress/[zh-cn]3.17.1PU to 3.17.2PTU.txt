@@ -98,10 +98,10 @@
 + ServiceBeacon_CombatAssist_Mission_Spoofed_Difficulty_Hard_Desc=[HIGH THREAT]\n\n ~serviceBeacon(InitiatorName) is requesting combat assistance in deep space. If accepted, you will be paid ~serviceBeacon(PaymentAmount) aUEC upon elimination of the threat.\n\nDistance to ~serviceBeacon(InitiatorName) : ~serviceBeacon(DistToInitiator)
 + ServiceBeacon_CombatAssist_Mission_Spoofed_Difficulty_Medium_Desc=[MODERATE THREAT]\n\n ~serviceBeacon(InitiatorName) is requesting combat assistance in deep space. If accepted, you will be paid ~serviceBeacon(PaymentAmount) aUEC upon elimination of the threat.\n\nDistance to ~serviceBeacon(InitiatorName) : ~serviceBeacon(DistToInitiator)
 + ServiceBeacon_CombatAssist_Mission_Spoofed_Difficulty_VeryHard_Desc=[CRITICAL THREAT]\n\n ~serviceBeacon(InitiatorName) is requesting combat assistance in deep space. If accepted, you will be paid ~serviceBeacon(PaymentAmount) aUEC upon elimination of the threat.\n\nDistance to ~serviceBeacon(InitiatorName) : ~serviceBeacon(DistToInitiator)
-+ ServiceBeacon_CombatAssist_Mission_Title_Difficulty_Easy=请求战斗协助（低风险）
-+ ServiceBeacon_CombatAssist_Mission_Title_Difficulty_Hard=请求战斗协助（高风险）
-+ ServiceBeacon_CombatAssist_Mission_Title_Difficulty_Medium=请求战斗协助（中等风险）
-+ ServiceBeacon_CombatAssist_Mission_Title_Difficulty_VeryHard=请求战斗协助（极高风险）
++ ServiceBeacon_CombatAssist_Mission_Title_Difficulty_Easy=作战支援（低风险）
++ ServiceBeacon_CombatAssist_Mission_Title_Difficulty_Hard=作战支援（高风险）
++ ServiceBeacon_CombatAssist_Mission_Title_Difficulty_Medium=作战支援（中等风险）
++ ServiceBeacon_CombatAssist_Mission_Title_Difficulty_VeryHard=作战支援（极高风险）
 + Stanton1_L1=赫-L1
 + Stanton1_L1_desc=一片位于赫斯顿轨道的拉格朗日重力井中的气云。除了拥有很多小行星以外，还有着一个便捷的R&R休息空间站，提供加油和维修服务。
 + Stanton1_L2=赫-L2
