@@ -8,7 +8,7 @@
 + Criminal_RetrieveData_Reclaimer_obj_long_04=摧毁Black Kite。
 + Criminal_RetrieveData_Reclaimer_obj_marker_01=Black Kite
 + Criminal_RetrieveData_Reclaimer_obj_marker_03=解密卡
-+ Criminal_RetrieveData_Reclaimer_obj_short_01=登陆Black Kite
++ Criminal_RetrieveData_Reclaimer_obj_short_01=登上Black Kite
 + Criminal_RetrieveData_Reclaimer_obj_short_02=找到解密卡
 + Criminal_RetrieveData_Reclaimer_obj_short_03=将解密卡插入服务器
 + Criminal_RetrieveData_Reclaimer_obj_short_04=摧毁Black Kite
