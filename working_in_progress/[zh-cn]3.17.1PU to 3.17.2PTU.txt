@@ -1,7 +1,6 @@
-+ 2019_Ann_Sale_Day1=Expo-hall Day 01
++ 2019_Ann_Sale_Day1=展览馆开放日第1天
 + 2019_Ann_Sale_Day2=展览馆开放日第2天
 + Criminal_RetrieveData_Reclaimer_ShipName=黑风筝
-
 + Criminal_RetrieveData_Reclaimer_desc=Been hunting down a particular parcel of data and right when I get a break the ship gets attacked by this converted Nine Tails Reclaimer called the Black Kite. I tried to hack into the servers on the Black Kite to see if they copied the data, but couldn't find a way to remotely get past their encryption protocols without the physical key.\n\nThat's where you come in. I need someone to breach their ship, get a hold of their decryption key, and decrypt the server so I can remotely pull down what I need.\n\nYou're smart enough to know who we're dealing with here, so plan accordingly. Since it's gonna ruffle some powerful feathers, let's not leave anything to chance. Destroy the Black Kite when you're done to cover both our asses.\n
 + Criminal_RetrieveData_Reclaimer_obj_long_01=Board the Black Kite.
 + Criminal_RetrieveData_Reclaimer_obj_long_02=Find the decryption key.
@@ -287,5 +286,5 @@
 + transit_shuttle_arriving_in_in=In
 + ui_CISelfDestruct_Disengage=Disengage Self Destruct
 + ui_CISelfDestruct_Engage=Engage Self Destruct
-+ vehicle_DescANVL_Centurion=Manufacturer: Anvil Aerospace\nFocus: Combat\n\nBuilt on Anvil's popular Atlas Platform, the Centurion presents a tactical solution for short-range anti-aircraft operations. Thanks to the Centurion’s custom energy-based AA turret, your forces can establish ground superiority by assuring immediate threats from above are dealt with quickly and efficiently.
-+ vehicle_NameANVL_Centurion=Anvil Centurion
++ vehicle_DescANVL_Centurion=制造商：铁砧航天(Anvil Aerospace)\n定位: 战斗\n\n基于铁砧深受喜爱的阿特拉斯平台, 百夫长为短程防空作战提供了一种战术解决方案。多亏了其定制的能量防空炮塔，地面部队可以快速有效地应对来自天空的直接威胁从而建立地面优势。
++ vehicle_NameANVL_Centurion=铁砧 百夫长
