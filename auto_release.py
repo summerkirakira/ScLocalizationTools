@@ -6,7 +6,7 @@ from typing import Dict
 root_path: Path = pathlib.Path('./')
 working_in_progress_path: Path = root_path / 'working_in_progress'
 history_path: Path = root_path / 'history files'
-release_path: Path = pathlib.Path('./')
+release_path: Path = pathlib.Path('./release')
 
 if not release_path.exists():
     release_path.mkdir()
