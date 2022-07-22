@@ -26,7 +26,6 @@ jobs:
       - name: Create release
         uses: "meeDamian/github-release@2.0"
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: "${{ github.ref }}"
           name: Global.ini发布
