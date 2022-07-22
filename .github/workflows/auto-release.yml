@@ -32,7 +32,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_override: true
           tag: "${{env.GAME_VERSION}}"
-          name: Global.ini Release
+          name: Global.ini release
           body: >
             ### Changelog
             
