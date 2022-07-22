@@ -19,14 +19,24 @@ jobs:
           architecture: 'x64'
       - name: Run test
         run: |
-          python auto_release.py
+          echo 'GAME_VERSION<<EOF' >> $GITHUB_ENV
+          python auto_release.py >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
       - name: Create release
         uses: "meeDamian/github-release@2.0"
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_override: true
-          tag: "latest"
-          name: Global.ini发布
+          tag: "${{GAME_VERSION}}"
+          name: Global.ini Release
           body: >
-            Global.ini发布
+            ### Changelog
+            - Add more translations
+            ### Contributors
+            - Summerkirakira (妖精)
+            - JASACOMB (小明)
+            - KirimaSyrao (卡布)
+            - Number238 (238)
+            ### License
+            - MIT
           files: release/
