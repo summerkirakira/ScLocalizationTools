@@ -17,9 +17,6 @@ jobs:
         with:
           python-version: 3.9
           architecture: 'x64'
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
       - name: Run test
         run: |
           python auto_release.py
@@ -27,7 +24,7 @@ jobs:
         uses: "meeDamian/github-release@2.0"
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: "${{ github.ref }}"
+          tag: "latest"
           name: Global.ini发布
           body: >
             Global.ini发布
