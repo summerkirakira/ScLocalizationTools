@@ -35,12 +35,17 @@ jobs:
           name: Global.ini Release
           body: >
             ### Changelog
+            
             - Add more translations
+            
             ### Contributors
+            
             - Summerkirakira (妖精)
             - JASACOMB (小明)
             - KirimaSyrao (卡布)
             - Number238 (238)
+            
             ### License
+            
             - MIT
           files: release/
