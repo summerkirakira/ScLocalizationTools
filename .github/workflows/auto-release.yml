@@ -1,0 +1,31 @@
+name: auto-release
+on:
+  push:
+    branches:
+      - master
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          architecture: 'x64'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Run test
+        run: |
+          python auto_release.py
+      - name: Create release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: ｜
+            - releases/*.ini
