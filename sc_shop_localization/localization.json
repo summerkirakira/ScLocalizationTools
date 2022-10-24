@@ -181,12 +181,12 @@
     },
     {
         "id": 21,
-        "chinese_title": null,
+        "chinese_title": "金牛座",
         "excerpt": "The Taurus is the dedicated freighter of RSI’s iconic Constellation series, fully configurable but without all the bells and whistles. Perfect for pilots looking to pull out all the stops and streamline their cargo hauling operation, or captains just get acquainted with multicrew vessels.",
         "product_id": 14538,
         "type": "product",
         "english_title": "Constellation Taurus",
-        "chinese_excerpt": null
+        "chinese_excerpt": "金牛座是RSI星座系列的专用货机，拥有完善的配置，却没有附加的装饰，非常适合那些专注于货运的船长，或者是初次接触多人船的船长。"
     },
     {
         "id": 22,
