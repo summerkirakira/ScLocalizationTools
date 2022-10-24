@@ -6,7 +6,7 @@
         "product_id": 8693,
         "type": "product",
         "english_title": "Praetorian Pack - Digital",
-        "chinese_excerpt": "无论是追组遥远的地平线还是驯服狂野的边疆，用战术与技术征服航线。是选择支援部队还是扶持当地的不法分子，选择权都在于您。执政官礼包让您能在宇宙中创造出一片属于您的市场。其包含不计其数的专业和商用船只任您支配，因此，您可以做任何您所想，并且镇定自若的掌控天空。"
+        "chinese_excerpt": "无论是追逐遥远的地平线还是驯服狂野的边疆，用战术与技术征服航线。是选择支援部队还是扶持当地的不法分子，选择权都在于您。执政官礼包让您能在宇宙中创造出一片属于您的市场。其包含不计其数的专业和商用船只任您支配，因此，您可以做任何您所想，并且镇定自若的掌控天空。"
     },
     {
         "id": 2,
@@ -136,48 +136,48 @@
     },
     {
         "id": 16,
-        "chinese_title": null,
+        "chinese_title": "毛虫",
         "excerpt": "Drake maintains that the Caterpillar, a sprawling, modular spacecraft which appears at least somewhat like its namesake, is for legitimate commerce and extended search and rescue missions... but at the end of the day, the Caterpillar is truly the evil twin of the Freelancer.",
         "product_id": 15470,
         "type": "product",
         "english_title": "Caterpillar",
-        "chinese_excerpt": null
+        "chinese_excerpt": "尽管德雷克坚称毛虫是一艘设计的非常像其名字的巨大模块化飞船，被用于合法贸易和扩展搜救任务。但到头来，毛虫确实是自由枪骑兵的邪恶孪生兄弟"
     },
     {
         "id": 17,
-        "chinese_title": null,
+        "chinese_title": "南船座 鼹鼠",
         "excerpt": "Work faster and more effectively than ever before with ARGO’s iconic multi-crew miner. Comes with the classic ARGO skin. ",
         "product_id": 13293,
         "type": "product",
         "english_title": "Argo Mole",
-        "chinese_excerpt": null
+        "chinese_excerpt": "得益于鼹鼠的三重采矿专利技术，采矿的速度和效率大幅提升。附带南船座经典涂装"
     },
     {
         "id": 18,
-        "chinese_title": null,
+        "chinese_title": "天鹰座",
         "excerpt": "Explore any distant horizons! The Constellation Aquila features a redesigned cockpit for maximum visibility, advanced sensors and an onboard Ursa rover for planetary exploration. Let’s see what’s out there!",
         "product_id": 14542,
         "type": "product",
         "english_title": "Constellation Aquila",
-        "chinese_excerpt": null
+        "chinese_excerpt": "随心探索遥远的地平线!天鹰座拥有着为了最大视野重新设计的驾驶舱，先进的传感器以及一辆用于行星探索的舰载大熊座漫游者。让我们携手见证未知吧!"
     },
     {
         "id": 19,
-        "chinese_title": null,
+        "chinese_title": "仙女座启始包",
         "excerpt": "Have spacecraft, will travel. This game package includes the state-of-the-art Constellation, a multi-person spacecraft that’s nothing like anything you’ve ever flown in a space sim! Crew it with an AI gunner or invite your friends along as you embark into a bold new universe…",
         "product_id": 3585,
         "type": "product",
         "english_title": "Constellation Andromeda Starter Package",
-        "chinese_excerpt": null
+        "chinese_excerpt": "船胆英豪！这个起始包包含了最为先进的仙女座飞船，一艘与您在任何太空模拟游戏中完全不同的多人飞船，与ai炮手或者您的朋友一起踏入一个全新，大胆的宇宙"
     },
     {
         "id": 20,
-        "chinese_title": null,
+        "chinese_title": "仙女座",
         "excerpt": "When you think handsome bounty hunter making his own way in a galaxy of enemies, you think the Constellation. The Constellation, a multi-person freighter, is the most popular ship in RSI’s current production array. Constellations are beloved by smugglers and merchants alike because they are modular, high powered… and just downright iconic-looking. The Constellation includes a manned turret, a large cargo area and a small flight deck capable of launching a snub fighter in its own defense.",
         "product_id": 14540,
         "type": "product",
         "english_title": "Constellation Andromeda",
-        "chinese_excerpt": null
+        "chinese_excerpt": "当您想象一个帅气的赏金猎人在敌方星系独自打拼时，您就会联想到仙女座。仙女座是一艘在目前的RSI产品线中最受欢迎的多人货船。仙女座深受走私者和商人们的喜爱，因为它是模组化的，强有力的等等...以及它彻头彻尾的标志性外形。仙女座有着载人炮塔，大容量的货舱和一个小型的飞行甲板发射寄生战机用于防御。"
     },
     {
         "id": 21,
