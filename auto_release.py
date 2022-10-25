@@ -1,7 +1,9 @@
+import json
 import pathlib
 from pathlib import Path
 from typing import Dict
 
+import requests as requests
 
 root_path: Path = pathlib.Path('./')
 working_in_progress_path: Path = root_path / 'working_in_progress'
@@ -110,6 +112,40 @@ class LocalizationFile:
             ws[key] = value
         wb.save(xlsx_path)
 
+def update_translation():
+    old_localizations = requests.get('http://biaoju.site:6088/translation/translate/all').json()
+    localization_path = root_path / 'sc_shop_localization' / 'localization.json'
+    with localization_path.open('r') as f:
+        new_translations = json.loads(f.read())
+    post_data = []
+    for old_localization in old_localizations:
+        for new_translation in new_translations:
+            if old_localization['id'] == new_translation['id']:
+                if new_translation["chinese_title"] is None:
+                    continue
+                new_data = {}
+                new_data['id'] = old_localization['id']
+                new_data["product_id"] = old_localization["product_id"]
+                new_data['type'] = old_localization['type']
+                new_data["english_title"] = old_localization["english_title"]
+                new_data['title'] = new_translation["chinese_title"]
+                if 'content' in new_translation:
+                    new_data['content'] = [new_translation["chinese_content"]]
+                else:
+                    new_data['content'] = []
+                if 'chinese_contains' in new_translation:
+                    new_data['contains'] = [new_translation["chinese_contains"]]
+                else:
+                    new_data['contains'] = []
+                new_data['from_ship'] = old_localization['from_ship']
+                new_data['to_ship'] = old_localization['to_ship']
+                if new_translation['chinese_excerpt'] is not None:
+                    new_data['excerpt'] = new_translation['chinese_excerpt']
+                else:
+                    new_data['excerpt'] = ''
+                post_data.append(new_data)
+    return requests.post('http://biaoju.site:6088/translation/debug/add_translation', json=post_data).json()
+
 
 if __name__ == "__main__":
     to_version = '3_17_2PTU'
@@ -128,4 +164,6 @@ if __name__ == "__main__":
         en_global: LocalizationFile = LocalizationFile(en_file)
         en_global.save(release_path / f'[en][{to_version.replace("_", ".")}]global.ini')
     print(to_version.replace("_", "."))
+    # print(update_translation())
+
 
