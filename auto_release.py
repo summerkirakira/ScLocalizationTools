@@ -163,7 +163,6 @@ if __name__ == "__main__":
     if en_file.exists():
         en_global: LocalizationFile = LocalizationFile(en_file)
         en_global.save(release_path / f'[en][{to_version.replace("_", ".")}]global.ini')
+    update_translation()
     print(to_version.replace("_", "."))
-    # print(update_translation())
-
 

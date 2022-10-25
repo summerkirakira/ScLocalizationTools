@@ -249,7 +249,7 @@
         "product_id": 15452,
         "type": "product",
         "english_title": "E1 Spirit",
-        "chinese_excerpt": "十字军工业用星灵A1将他们对卓越的一贯追求带向了民用市场，星灵E1是一艘中型旅游船，旨在为VIP乘客提供豪华出行服务，但同时也有能力担当多种角色和攻克各类不可预测的任务"
+        "chinese_excerpt": "十字军工业用星灵E1将他们对卓越的一贯追求带向了民用市场，星灵E1是一艘中型旅游船，旨在为VIP乘客提供豪华出行服务，但同时也有能力担当多种角色和攻克各类不可预测的任务"
     },
     {
         "id": 29,
@@ -267,97 +267,97 @@
         "product_id": 9086,
         "type": "product",
         "english_title": "Vulture",
-        "chinese_excerpt": null
+        "chinese_excerpt": "不用向任何人报告，砍掉中间人，将谨慎抛诸脑后，像专业人士一样撕开残骸，在虚空中开辟您的天地，这便是德雷克星际的单人打捞船--秃鹫。现在购买秃鹫将会在可飞前借出一艘勘探者作为替代。在您与德雷克一起携手共进前，先来体验下独狼的生活吧。"
     },
     {
         "id": 31,
-        "chinese_title": null,
+        "chinese_title": "弩炮",
         "excerpt": "Accommodating ten guided missiles, the Ballista self-propelled air defense system is capable of destruction on a massive scale. Chew through shields, incapacitate or obliterate airborne threats of almost any class foolhardy enough to come within 2000 meters. Whether its pummeling enemies on the frontlines or watching over a strategic post, the Ballista won't just level the playing field, it'll level the competition.",
         "product_id": 11916,
         "type": "product",
-        "english_title": "Ballista  ",
-        "chinese_excerpt": null
+        "english_title": "Ballista",
+        "chinese_excerpt": "弩炮自行防空系统可容纳10枚导弹，让其能大闹一场。任何鲁莽闯入其半径2000m范围内的飞船将被这些导弹撕开护盾，重创船体甚至被当场抹杀。无论是在前线歼敌还是防御前哨站点，弩炮向来可以主宰战场。"
     },
     {
         "id": 32,
-        "chinese_title": null,
+        "chinese_title": "星际运输包",
         "excerpt": "Featuring a Greycat STV and a MISC Freelancer, this duo gives you the ability to haul cargo and make deliveries through the stars and over the ground.",
         "product_id": 15436,
         "type": "product",
         "english_title": "Planetside Delivery Pack",
-        "chinese_excerpt": null
+        "chinese_excerpt": "包含灰猫STV和武藏自由枪骑兵，让您能用这对搭档在星辰间运送货物"
     },
     {
         "id": 33,
-        "chinese_title": null,
+        "chinese_title": "自由枪骑兵 DUR",
         "excerpt": "The Freelancer DUR variant specializes in exploration. Sacrificing 25% cargo capacity of the standard Freelancer for an enhanced jump drive, a more advanced scanner, and an expanded fuel tank may seem like a bad call to some, but those who value discovery over profit will find it to be their ship of choice.\n\n",
         "product_id": 11453,
         "type": "product",
         "english_title": "Freelancer DUR ",
-        "chinese_excerpt": null
+        "chinese_excerpt": "自由枪骑兵-DUR变体专门用于探索。它牺牲了25%的货舱空间，换取了一个加强的跳跃驱动器，一个更先进的扫描仪以及扩容的燃料箱。对于一些人来说这些改装似乎并不好，但是对于那些重视探索而非赚钱的人来说，自由枪骑兵-DUR绝对是他们的不二选择。"
     },
     {
         "id": 34,
-        "chinese_title": null,
+        "chinese_title": "红弯刀",
         "excerpt": "The Cutlass Red takes Drake’s classic chassis and converts the standard cargo hold into a fully-equipped medical bay, complete with AutoDoc integration, and easy-access via port and starboard entry points. The gun turret is replaced by a Nav-E7 Echo Scanner, equipped with flexible long-range radar and a beacon, with the added nuance of manual manipulation, putting any search and rescue operation into your capable hands.",
         "product_id": 13321,
         "type": "product",
         "english_title": "Cutlass Red",
-        "chinese_excerpt": null
+        "chinese_excerpt": "红弯刀内置了一个标准的货运空间和一个十分完善的医疗设施，并且还配备了智能医生。这辆星际救护车装备了领航E7(Nav-E7)回波转发器，一具长距离扫描仪，以及一个可靠的对接口，令其成为了搜救任务的理想选择。该型号拥有独特的红十字涂装。"
     },
     {
         "id": 35,
-        "chinese_title": null,
+        "chinese_title": "星灵E1 奥林匹亚涂装版",
         "excerpt": "Crusader Industries brings its usual commitment to excellence directly to the civilian market with the E1 Spirit, a mid-size multi-purpose starship aiming to redefine executive travel while packing enough versatility to tackle multiple roles and unpredictable jobs. Includes the striking Olympia paint scheme, available only to members of the Chairman’s Club.\n\n*Warbond version pledges CANNOT be purchased with store credit*",
         "product_id": 15447,
         "type": "product",
         "english_title": "E1 Spirit plus Olympia Paint",
-        "chinese_excerpt": null
+        "chinese_excerpt": "十字军工业用星灵E1将他们对卓越的一贯追求带向了民用市场，星灵E1是一艘中型旅游船，旨在为VIP乘客提供豪华出行服务，但同时也有能力担当多种角色和攻克各类不可预测的任务。还包含了奥林匹亚突击涂装的选择。仅对千刀俱乐部会员开放。\n\n*WB版本不能通过信用点购买*"
     },
     {
         "id": 36,
-        "chinese_title": null,
+        "chinese_title": "星灵E1",
         "excerpt": "Crusader Industries brings its usual commitment to excellence directly to the civilian market with the E1 Spirit, a mid-size multi-purpose starship aiming to redefine executive travel with VIP accommodations while packing enough versatility to tackle multiple roles and unpredictable jobs.\n\n*Warbond version pledges CANNOT be purchased with store credit*\n",
         "product_id": 15451,
         "type": "product",
         "english_title": "E1 Spirit",
-        "chinese_excerpt": null
+        "chinese_excerpt": "十字军工业用星灵E1将他们对卓越的一贯追求带向了民用市场，星灵E1是一艘中型旅游船，旨在为VIP乘客提供豪华出行服务，但同时也有能力担当多种角色和攻克各类不可预测的任务。\n\n*WB版本不能通过信用点购买*"
     },
     {
         "id": 37,
-        "chinese_title": null,
+        "chinese_title": "F7C-S 大黄蜂 幽灵",
         "excerpt": "Through a combination of low-emission drives, low-draw weapons, and Void Armor technology capable of diffusing scans, the F7C-S Ghost is built for the pilot who wants to keep a low profile. The Ghost is capable of slipping past the most ardent of observers to accomplish whatever goal you need to accomplish. Don’t worry, we won’t ask.",
         "product_id": 209,
         "type": "product",
         "english_title": "F7C-S Hornet Ghost",
-        "chinese_excerpt": null
+        "chinese_excerpt": "结合了低辐射驱动器，低信号的武器和散射扫描波的“虚空”护甲技术，F7C-S 幽灵蜂是为那些低调行事的飞行员准备的。幽灵蜂能够在最密集的岗哨眼皮底下溜过去，无论什么目的都能祝你一臂之力。不用担心，我们不会过问的。"
     },
     {
         "id": 38,
-        "chinese_title": null,
+        "chinese_title": "F7C 大黄蜂新手包",
         "excerpt": "The ultimate peacemaker. Hornets are flown by the elite UEE fighter pilots… and now you can have one of your very own. This game package lets you embark into the galaxy with the civilian version of the hottest military dogfighter available.",
         "product_id": 3583,
         "type": "product",
         "english_title": "Hornet F7C Starter Pack",
-        "chinese_excerpt": null
+        "chinese_excerpt": "终极的和平缔造者。大黄蜂经常由UEE中的精英驾驶员驾驶，而现在您能拥有一架属于自己的大黄蜂。该游戏包能让您使用最热门军用战斗机的民用版本进入宇宙。"
     },
     {
         "id": 39,
-        "chinese_title": null,
+        "chinese_title": "武藏自由枪骑兵新手包",
         "excerpt": "The stars, my destination. Put yourself in the front seat of a MISC Freelancer, the ideal craft for long-range exploration. Discover distant jump points and derelict starships and help stamp your name on the expanding galaxy.",
         "product_id": 3584,
         "type": "product",
         "english_title": "MISC Freelancer Starter Pack",
-        "chinese_excerpt": null
+        "chinese_excerpt": "星之所向，身之所往。坐上武藏自由枪骑兵的驾驶座，这艘完美的长距离探索船将带您发现遥远的跳跃点或是废弃的飞船，并助您将自己在广袤的银河上烙上名字。"
     },
     {
         "id": 40,
-        "chinese_title": null,
+        "chinese_title": "星际运输包",
         "excerpt": "Featuring a Greycat STV and a MISC Freelancer, this duo gives you the ability to haul cargo and make deliveries through the stars and over the ground.\n\n*Warbond version pledges CANNOT be purchased with store credit*",
         "product_id": 15437,
         "type": "product",
         "english_title": "Planetside Delivery Pack",
-        "chinese_excerpt": null
+        "chinese_excerpt": "包含灰猫STV和武藏自由枪骑兵，让您能用这对搭档在星辰间运送货物。\n\n*WB版本不能通过信用点购买*"
     },
     {
         "id": 41,
