@@ -115,8 +115,11 @@ class LocalizationFile:
 def update_translation():
     old_localizations = requests.get('http://biaoju.site:6088/translation/translate/all').json()
     localization_path = root_path / 'sc_shop_localization' / 'localization.json'
+    hanger_item_list_path = root_path / 'sc_shop_localization' / 'hanger_item.ini'
     with localization_path.open('r') as f:
         new_translations = json.loads(f.read())
+    with hanger_item_list_path.open('r') as f:
+        hanger_item_list = f.read().splitlines()
     post_data = []
     for old_localization in old_localizations:
         for new_translation in new_translations:
@@ -144,7 +147,14 @@ def update_translation():
                 else:
                     new_data['excerpt'] = ''
                 post_data.append(new_data)
-    return requests.post('http://biaoju.site:6088/translation/debug/add_translation', json=post_data).json()
+    requests.post('http://biaoju.site:6088/translation/debug/add_translation', json=post_data).json()
+    translation_dict = {}
+    for line in hanger_item_list:
+        [key, value] = line.split('=')
+        if value == '':
+            continue
+        translation_dict[key] = value
+    requests.post('http://biaoju.site:6088/translation/debug/add_hanger_translation', json=translation_dict).json()
 
 
 if __name__ == "__main__":
