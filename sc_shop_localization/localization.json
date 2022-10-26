@@ -3558,7 +3558,7 @@
         "product_id": 100084,
         "type": "product",
         "english_title": "Hull A",
-        "chinese_title": null,
+        "chinese_title": "货A",
         "chinese_excerpt": null,
         "id": 396,
         "excerpt": ""
@@ -4728,7 +4728,7 @@
         "product_id": 100233,
         "type": "product",
         "english_title": "Centurion",
-        "chinese_title": null,
+        "chinese_title": "百夫长",
         "chinese_excerpt": null,
         "id": 526,
         "excerpt": ""
