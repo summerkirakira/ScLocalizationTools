@@ -3,6 +3,10 @@ concurrency:
   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
   cancel-in-progress: true
 
+on:
+  workflow_dispatch:
+
+
 env:
   GAME_VERSION: 3.17.0 PU
 
@@ -19,6 +23,8 @@ jobs:
           architecture: 'x64'
       - name: Run test
         run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
           echo 'GAME_VERSION<<EOF' >> $GITHUB_ENV
           python auto_release.py >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
