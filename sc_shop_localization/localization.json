@@ -4035,7 +4035,7 @@
         "product_id": 100141,
         "type": "product",
         "english_title": "600i Explorer",
-        "chinese_title": "600i 探索",
+        "chinese_title": "600i 探索版",
         "chinese_excerpt": null,
         "id": 449,
         "excerpt": ""
@@ -4485,7 +4485,7 @@
         "product_id": 100203,
         "type": "product",
         "english_title": "Argo Mole Talus Edition",
-        "chinese_title": null,
+        "chinese_title": "鼹鼠岩白版",
         "chinese_excerpt": null,
         "id": 499,
         "excerpt": ""
@@ -4494,7 +4494,7 @@
         "product_id": 100204,
         "type": "product",
         "english_title": "Carrack w/C8X",
-        "chinese_title": null,
+        "chinese_title": "克拉克/C8X",
         "chinese_excerpt": null,
         "id": 500,
         "excerpt": ""
@@ -4503,7 +4503,7 @@
         "product_id": 100205,
         "type": "product",
         "english_title": "Carrack Expedition w/C8X",
-        "chinese_title": null,
+        "chinese_title": "克拉克远征版/C8X",
         "chinese_excerpt": null,
         "id": 501,
         "excerpt": ""
@@ -4512,7 +4512,7 @@
         "product_id": 100206,
         "type": "product",
         "english_title": "Carrack Expedition",
-        "chinese_title": null,
+        "chinese_title": "克拉克远征版",
         "chinese_excerpt": null,
         "id": 502,
         "excerpt": ""
@@ -4521,7 +4521,7 @@
         "product_id": 100207,
         "type": "product",
         "english_title": "P-72 Archimedes Emerald",
-        "chinese_title": null,
+        "chinese_title": "P-72 阿基米德 翡翠绿",
         "chinese_excerpt": null,
         "id": 503,
         "excerpt": ""
@@ -4530,7 +4530,7 @@
         "product_id": 100208,
         "type": "product",
         "english_title": "G12",
-        "chinese_title": null,
+        "chinese_title": "G12",
         "chinese_excerpt": null,
         "id": 504,
         "excerpt": ""
@@ -4539,7 +4539,7 @@
         "product_id": 100209,
         "type": "product",
         "english_title": "G12r",
-        "chinese_title": null,
+        "chinese_title": "G12r",
         "chinese_excerpt": null,
         "id": 505,
         "excerpt": ""
@@ -4548,7 +4548,7 @@
         "product_id": 100210,
         "type": "product",
         "english_title": "G12a",
-        "chinese_title": null,
+        "chinese_title": "G12a",
         "chinese_excerpt": null,
         "id": 506,
         "excerpt": ""
@@ -4557,7 +4557,7 @@
         "product_id": 100211,
         "type": "product",
         "english_title": "Talon",
-        "chinese_title": null,
+        "chinese_title": "利爪",
         "chinese_excerpt": null,
         "id": 507,
         "excerpt": ""
@@ -4565,7 +4565,7 @@
     {
         "product_id": 100212,
         "type": "product",
-        "english_title": "Talon Shrike",
+        "english_title": "利爪伯劳",
         "chinese_title": null,
         "chinese_excerpt": null,
         "id": 508,
@@ -4575,7 +4575,7 @@
         "product_id": 100214,
         "type": "product",
         "english_title": "ROC",
-        "chinese_title": null,
+        "chinese_title": "ROC",
         "chinese_excerpt": null,
         "id": 509,
         "excerpt": ""
@@ -4584,7 +4584,7 @@
         "product_id": 100216,
         "type": "product",
         "english_title": "Nomad",
-        "chinese_title": null,
+        "chinese_title": "游牧者",
         "chinese_excerpt": null,
         "id": 510,
         "excerpt": ""
@@ -4593,7 +4593,7 @@
         "product_id": 100217,
         "type": "product",
         "english_title": "Perseus",
-        "chinese_title": null,
+        "chinese_title": "英仙座",
         "chinese_excerpt": null,
         "id": 511,
         "excerpt": ""
@@ -4602,7 +4602,7 @@
         "product_id": 100218,
         "type": "product",
         "english_title": "Cyclone MT",
-        "chinese_title": null,
+        "chinese_title": "旋风MT",
         "chinese_excerpt": null,
         "id": 512,
         "excerpt": ""
@@ -4611,7 +4611,7 @@
         "product_id": 100219,
         "type": "product",
         "english_title": "ROC-DS",
-        "chinese_title": null,
+        "chinese_title": "ROC-DS",
         "chinese_excerpt": null,
         "id": 513,
         "excerpt": ""
@@ -4620,7 +4620,7 @@
         "product_id": 100221,
         "type": "product",
         "english_title": "Scorpius",
-        "chinese_title": null,
+        "chinese_title": "天蝎座",
         "chinese_excerpt": null,
         "id": 514,
         "excerpt": ""
@@ -4629,7 +4629,7 @@
         "product_id": 100222,
         "type": "product",
         "english_title": "Railen",
-        "chinese_title": null,
+        "chinese_title": "锐伦",
         "chinese_excerpt": null,
         "id": 515,
         "excerpt": ""
@@ -4638,7 +4638,7 @@
         "product_id": 100223,
         "type": "product",
         "english_title": "400i",
-        "chinese_title": null,
+        "chinese_title": "400i",
         "chinese_excerpt": null,
         "id": 516,
         "excerpt": ""
@@ -4647,7 +4647,7 @@
         "product_id": 100224,
         "type": "product",
         "english_title": "Liberator",
-        "chinese_title": null,
+        "chinese_title": "解放者",
         "chinese_excerpt": null,
         "id": 517,
         "excerpt": ""
@@ -4656,7 +4656,7 @@
         "product_id": 100225,
         "type": "product",
         "english_title": "Spartan",
-        "chinese_title": null,
+        "chinese_title": "斯巴达",
         "chinese_excerpt": null,
         "id": 518,
         "excerpt": ""
@@ -4665,7 +4665,7 @@
         "product_id": 100226,
         "type": "product",
         "english_title": "RAFT",
-        "chinese_title": null,
+        "chinese_title": "木筏",
         "chinese_excerpt": null,
         "id": 519,
         "excerpt": ""
@@ -4674,7 +4674,7 @@
         "product_id": 100227,
         "type": "product",
         "english_title": "Odyssey",
-        "chinese_title": null,
+        "chinese_title": "奥德赛",
         "chinese_excerpt": null,
         "id": 520,
         "excerpt": ""
@@ -4683,7 +4683,7 @@
         "product_id": 100228,
         "type": "product",
         "english_title": "Cutlass Steel",
-        "chinese_title": null,
+        "chinese_title": "钢弯刀",
         "chinese_excerpt": null,
         "id": 521,
         "excerpt": ""
@@ -4692,7 +4692,7 @@
         "product_id": 100229,
         "type": "product",
         "english_title": "HoverQuad",
-        "chinese_title": null,
+        "chinese_title": "悬浮驷",
         "chinese_excerpt": null,
         "id": 522,
         "excerpt": ""
@@ -4701,7 +4701,7 @@
         "product_id": 100230,
         "type": "product",
         "english_title": "Expanse",
-        "chinese_title": null,
+        "chinese_title": "无垠",
         "chinese_excerpt": null,
         "id": 523,
         "excerpt": ""
@@ -4710,7 +4710,7 @@
         "product_id": 100231,
         "type": "product",
         "english_title": "Mule",
-        "chinese_title": null,
+        "chinese_title": "骡",
         "chinese_excerpt": null,
         "id": 524,
         "excerpt": ""
@@ -4719,7 +4719,7 @@
         "product_id": 100232,
         "type": "product",
         "english_title": "Legionnaire",
-        "chinese_title": null,
+        "chinese_title": "军团兵",
         "chinese_excerpt": null,
         "id": 525,
         "excerpt": ""
@@ -4737,7 +4737,7 @@
         "product_id": 100234,
         "type": "product",
         "english_title": "C1 Spirit",
-        "chinese_title": null,
+        "chinese_title": "C1 星灵",
         "chinese_excerpt": null,
         "id": 527,
         "excerpt": ""
@@ -4746,7 +4746,7 @@
         "product_id": 100237,
         "type": "product",
         "english_title": "A1 Spirit ",
-        "chinese_title": null,
+        "chinese_title": "A1 星灵",
         "chinese_excerpt": null,
         "id": 528,
         "excerpt": ""
@@ -4755,7 +4755,7 @@
         "product_id": 100239,
         "type": "product",
         "english_title": "E1 Spirit",
-        "chinese_title": null,
+        "chinese_title": "E1 星灵",
         "chinese_excerpt": null,
         "id": 529,
         "excerpt": ""
@@ -4764,7 +4764,7 @@
         "product_id": 100240,
         "type": "product",
         "english_title": "STV",
-        "chinese_title": null,
+        "chinese_title": "STV",
         "chinese_excerpt": null,
         "id": 530,
         "excerpt": ""
