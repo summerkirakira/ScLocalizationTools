@@ -115,7 +115,7 @@ class LocalizationFile:
 def update_translation():
     old_localizations = requests.get('http://biaoju.site:6088/translation/translate/all').json()
     localization_path = root_path / 'sc_shop_localization' / 'localization.json'
-    hanger_item_list_path = root_path / 'sc_shop_localization' / 'hanger_item.ini'
+    hanger_item_list_path = root_path / 'sc_shop_localization' / 'hanger_item_1.ini'
     with localization_path.open('r') as f:
         new_translations = json.loads(f.read())
     with hanger_item_list_path.open('r') as f:
