@@ -3,8 +3,8 @@ import pathlib
 from pathlib import Path
 from typing import Dict
 
-english_path: Path = pathlib.Path('./history files/en/global.3_17_2PU.ini')
-chinese_path: Path = pathlib.Path('./history files/zh-cn/global.3_17_2PTU.ini')
+english_path: Path = pathlib.Path('./history files/en/global.3_17_4PU.ini')
+chinese_path: Path = pathlib.Path('./history files/zh-cn/global.3_17_4PU.ini')
 
 
 class EnglishLocalizationFile:
