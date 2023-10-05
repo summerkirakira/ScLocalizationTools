@@ -32,7 +32,7 @@ class LocalizationFile:
         Reads the file and stores the data in a dictionary
         :return:
         """
-        with self.path.open('r') as f:
+        with self.path.open('r', encoding='cp1256') as f:
             for line in f:
                 line = line.strip()
                 if not line or line.startswith('#'):
@@ -85,7 +85,8 @@ class LocalizationFile:
                 if not line or line.startswith('#'):
                     continue
                 if '->' in line:
-                    raise ValueError(f'{line} is not a valid line')
+                    # raise ValueError(f'{line} is not a valid line')
+                    continue
                 key, value = line.split('=', 1)
                 self.data[key] = value
 
@@ -94,7 +95,7 @@ class LocalizationFile:
         Saves the data to the file
         :return:
         """
-        with open(file_path.absolute(), "w+") as f:
+        with open(file_path.absolute(), "w+", encoding="cp1256") as f:
             for key, value in self.data.items():
                 f.write(f'{key}={value}\n')
 
@@ -111,6 +112,7 @@ class LocalizationFile:
         for key, value in self.data.items():
             ws[key] = value
         wb.save(xlsx_path)
+
 
 def update_translation():
     old_localizations = requests.get('http://biaoju.site:6088/translation/translate/all').json()
@@ -173,6 +175,6 @@ if __name__ == "__main__":
     if en_file.exists():
         en_global: LocalizationFile = LocalizationFile(en_file)
         en_global.save(release_path / f'[en][{to_version.replace("_", ".")}]global.ini')
-    update_translation()
+    # update_translation()
     print(to_version.replace("_", "."))
 
