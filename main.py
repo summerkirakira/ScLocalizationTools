@@ -28,7 +28,7 @@ class LocalizationFile:
         Reads the file and stores the data in a dictionary
         :return:
         """
-        with self.path.open('r') as f:
+        with self.path.open('r', encoding='cp1256') as f:
             for line in f:
                 line = line.strip()
                 if not line or line.startswith('#'):
